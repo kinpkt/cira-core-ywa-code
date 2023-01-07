@@ -41,7 +41,6 @@ for i in obj_list:
     coor_dict[i['name']] = (i['x'], i['y'])
    
 drawline('Head', 'Shoulder')
-drawline('Shoulder', 'Hand')
 drawline('Hand', 'Elbow')
 drawline('Shoulder', 'Butt')
 drawline('Butt', 'Knee')
@@ -49,5 +48,3 @@ drawline('Knee', 'Foot')
 
 for i in coor_dict:
     cv2.circle(img, coor_dict[i], 15, POINT_COLOR, -1)
-
-setGlobal('parts_in', parts_in)
