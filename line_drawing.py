@@ -5,8 +5,8 @@ LINE_COLOR = (0, 255, 255)
 POINT_COLOR = (255, 0, 255)
 ESTIMATED_COLOR = (0, 255, 0)
 
-T_LINE = 7.5
-T_POINT = 15
+T_LINE = 5.5
+T_POINT = 12.5
 
 def length(coor1, coor2):
     distance = np.sqrt((coor1[0]-coor2[0])**2+(coor1[1]-coor2[1])**2)
